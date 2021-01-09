@@ -23,7 +23,7 @@ section {
 
 }
 
-a {
+main a {
     text-align: center;
     font-size: 0.8rem;
     text-decoration: none;
@@ -120,8 +120,11 @@ a {
     }
 
     .logo2 {
-        max-width: 15%;
-        opacity: 60%;
+        max-width: 25%;
+    }
+
+    #first_section {
+        margin-bottom: 6rem;
     }
 
     #first_section .section_wrapper {
@@ -184,21 +187,5 @@ a {
         grid-gap: 2rem;
         border: 3px solid #5A5A5A;
         padding: 1rem;
-    }
-}
-
-
-main {
-    animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
     }
 }

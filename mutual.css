@@ -140,16 +140,35 @@ p {
 
     .menu {
         display: none;
+
     }
 
-    #menu ul {
-        padding: 1vw;
+    nav .section_wrapper {
+        background-color: white;
+    }
+
+    #menu1 {
+        position: absolute;
+        background-color: white;
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+
+    #menuknap {
+        margin: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    #menu1 ul {
+        padding: 1.5rem;
         text-align: center;
         background-color: white;
         text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 100;
     }
 
-    #menu ul:hover {
+    #menu1 ul:hover {
         color: #DDDDDD;
     }
 
@@ -177,8 +196,9 @@ p {
         transform: rotate(45deg) translate(-2px, -8px);
     }
 
-    #menu img {
-        width: 15%;
+    #menu1 img {
+        width: 45%;
+        margin-left: -0.7rem;
     }
 
 
@@ -214,3 +234,18 @@ p {
 
 
 }
+
+#page_container {
+    animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+}
+
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }

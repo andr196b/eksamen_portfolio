@@ -10,7 +10,7 @@ function sidenVises() {
 
 function toggleMenu() {
     console.log("toggleMenu");
-    document.querySelector("#menu").classList.toggle("hidden");
+    document.querySelector("#menu1").classList.toggle("hidden");
     myFunctionBurger(this);
 
 }
