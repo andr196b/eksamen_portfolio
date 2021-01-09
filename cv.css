@@ -1,6 +1,6 @@
 @media (min-width: 800px) {
 
-    .section_wrapper {
+    main .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -9,6 +9,7 @@
         border: 1px solid #C8A569;
         padding: 1rem;
     }
+
 
 
     .overskrifttop {
@@ -79,7 +80,7 @@
 
 @media (max-width: 800px) {
 
-    .section_wrapper {
+    main .section_wrapper {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -89,10 +90,14 @@
         padding: 1rem;
     }
 
+    .menu {
+        display: none;
+    }
+
+
 
     .overskrifttop {
         text-align: center;
-        padding-top: 4rem;
         font-size: 2rem;
 
     }
