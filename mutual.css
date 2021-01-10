@@ -49,7 +49,7 @@ p {
 
 @media (min-width: 800px) {
 
-    nav {
+    nav .menu {
         border: 1px solid #DDDDDD;
         padding: 0.5rem;
     }
@@ -87,6 +87,10 @@ p {
     }
 
     #menuknap_wrapper {
+        display: none;
+    }
+
+    nav #section_wrapper {
         display: none;
     }
 
