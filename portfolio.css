@@ -27,15 +27,13 @@ section {
 
 }
 
-a {
-    margin-bottom: 3rem;
-}
 
 main a {
     text-align: center;
     font-size: 1rem;
     text-decoration: none;
     margin-bottom: 3rem;
+
 }
 
 .pdf {

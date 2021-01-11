@@ -3,7 +3,7 @@ img {
 }
 
 
-nav a {
+a {
     font-family: 'Helvetica Neue light', sans-serif;
     color: black;
     font-weight: 200;
@@ -27,6 +27,8 @@ h2 {
     font-weight: 300;
     text-transform: uppercase;
     opacity: 80%;
+    overflow: hidden;
+
 }
 
 h3 {
@@ -154,8 +156,8 @@ p {
 
     #menu1 {
         display: grid;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 13rem 4rem 4rem 4rem;
         position: absolute;
         background-color: white;
         margin-left: 0rem;
@@ -168,7 +170,7 @@ p {
         margin-top: 1rem;
     }
 
-    #menu1 ul {
+    #menu1 {
         position: absolute;
         padding: 0.5rem;
         text-align: center;
@@ -207,22 +209,6 @@ p {
         margin-left: -0.7rem;
     }
 
-    nav .row1 {
-        padding: 0rem;
-    }
-
-    nav .row2 {
-        margin-top: 2rem;
-    }
-
-    nav .row3 {
-        margin-top: -5rem;
-    }
-
-    nav .row4 {
-        margin-top: -12rem;
-    }
-
 
     footer {
         position: relative;
@@ -258,7 +244,6 @@ p {
 }
 
 #page_container {
-    animation: fadeIn ease 2s;
     animation: fadeIn ease 2s;
 }
 
