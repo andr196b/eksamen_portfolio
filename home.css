@@ -3,7 +3,6 @@
 }
 
 
-
 @media (min-width: 800px) {
 
 
@@ -18,19 +17,6 @@
         margin-left: 7vw;
         margin-right: 7vw;
     }
-
-    /*
-    img {
-        transition: filter .3s ease-in-out;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-
-    img:hover {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
-*/
 
     .col1 {
         margin-right: 10vw;
