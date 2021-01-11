@@ -41,7 +41,7 @@ h3 {
 p {
     font-family: 'Helvetica Neue light', sans-serif;
     color: black;
-    font-weight: 50;
+    font-weight: 100;
     color: #939191;
 }
 
@@ -189,7 +189,7 @@ p {
     }
 
     .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
         transform: rotate(-45deg) translate(-2px, 8px);
     }
 
@@ -198,7 +198,7 @@ p {
     }
 
     .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-2px, -8px);
     }
 
@@ -259,11 +259,11 @@ p {
 
 #page_container {
     animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
 }
 
 
-@-moz-keyframes fadeIn {
+@keyframes fadeIn {
     0% {
         opacity: 0;
     }
@@ -271,3 +271,4 @@ p {
     100% {
         opacity: 1;
     }
+}
